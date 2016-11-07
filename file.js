@@ -27,4 +27,4 @@ app.use(function(err,req,res,next){
 app.listen(app.get('port'),function(){
     console.log('启动端口...'+app.get('port'));
 });
-console.log('test2');
+console.log('testPC');

@@ -12,7 +12,7 @@ app.get('/',function(req,res){
 });
 app.get('/about',function(req,res){
     //res.type('text/plain');
-    res.render('about',{text:f.getF(),abc: f.db.test('sss')});
+    res.render('about',{text:f.getF(),abc: f.db.test('sss1')});
 });
 app.get('/aa',function(req,res){
     //res.type('text/plain');
@@ -27,3 +27,4 @@ app.use(function(err,req,res,next){
 app.listen(app.get('port'),function(){
     console.log('启动端口...'+app.get('port'));
 });
+console.log('test2');
